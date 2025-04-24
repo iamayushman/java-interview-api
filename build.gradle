@@ -66,6 +66,8 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.mockito/mockito-core
 	testImplementation 'org.mockito:mockito-core:5.3.1'
 
+	developmentOnly("org.springframework.boot:spring-boot-devtools")
+
 }
 
 test {
